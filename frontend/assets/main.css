@@ -1,0 +1,178 @@
+/* App-wide styling */
+body {
+    background-color: #000c2c;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+#hero {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#links {
+    width: 400px;
+    text-align: left;
+    font-size: x-large;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin: 10px 0px;
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#links a:hover {
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+#header {
+    max-width: 1200px;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 12;
+    gap: 16px;
+}
+
+.journal-container {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #b3e1ff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #000000;
+    padding: 8px;
+    box-shadow: 5px 5px 5px #0081dcb5;
+}
+
+.button-container-parent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px
+}
+
+.create-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 157, 44);
+    padding: 10px;
+    color: #000000;
+    font-weight: 600; 
+    font-size: 20px
+}
+
+.create-button:hover{
+    background-color: rgb(78, 255, 78);
+    box-shadow: 1px 1px 5px rgb(78, 255, 78);
+}
+
+.create-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 157, 44);
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 600; 
+    font-size: 20px
+}
+
+.create-button:hover{
+    cursor: pointer;
+    background-color: rgb(78, 255, 78);
+    box-shadow: 1px 1px 5px rgb(78, 255, 78);
+}
+
+.create-button:disabled{
+    background-color: rgb(81, 81, 81);
+    box-shadow: none;
+}
+
+.cancel-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(157, 57, 44);
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 600; 
+    font-size: 20px
+}
+
+.cancel-button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 93, 78);
+    box-shadow: 1px 1px 5px rgb(255, 93, 78);
+}
+
+.refresh-button {
+    background-color: rgb(194, 194, 194);
+}
+
+.refresh-button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px #ffffff;
+}
+
+.export-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(169, 132, 0);
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 600; 
+    font-size: 20px
+}
+
+.export-button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 147, 1);
+    box-shadow: 1px 1px 5px rgb(231, 147, 1);
+}
+
+.export-button:disabled{
+    background-color: rgb(81, 81, 81);
+    box-shadow: none;
+}
+
+.tag {
+    cursor: pointer;
+}
+
+.tag:hover{
+    color: red;
+}
+
+.input-field {
+    padding: 10px;
+    font-weight: 400; 
+    font-size: 20px;
+    border-radius: 4px;
+}
